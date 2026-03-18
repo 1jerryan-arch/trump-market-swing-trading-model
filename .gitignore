@@ -1,0 +1,63 @@
+# === SECRETS & API KEYS (NEVER COMMIT) ===
+.env
+*.env
+secrets.py
+api_keys.py
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === VIRTUAL ENVIRONMENTS ===
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# === JUPYTER / COLAB ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === MODEL OUTPUT & DATA ===
+content/
+/content/
+portfolio_state.json
+weekly_report.txt
+performance_dashboard.png
+*.csv
+*.parquet
+*.pkl
+*.pickle
+
+# === LOGS ===
+*.log
+logs/
+grok_api_log.json
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === TESTING ===
+.pytest_cache/
+.coverage
+htmlcov/
