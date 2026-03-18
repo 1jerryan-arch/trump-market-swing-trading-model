@@ -1,0 +1,22 @@
+# Trump Market Swing Trading Model — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core API Client (xAI Grok via OpenAI-compatible SDK)
+openai>=1.12.0
+
+# Data & Numerics
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Market Data
+yfinance>=0.2.36
+
+# Sentiment (VADER — Stage 1 keyword assist / fallback)
+vaderSentiment>=3.3.2
+
+# Visualisation
+matplotlib>=3.7.0
+
+# Standard library (no install needed):
+# re, hashlib, json, os, time, subprocess, sys
+# dataclasses, typing, collections, datetime, warnings
