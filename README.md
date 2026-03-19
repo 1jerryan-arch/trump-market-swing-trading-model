@@ -1,4 +1,4 @@
-# Trump Market Swing Trading Model
+# Reigime-Based Market Swing Trading Model
 ### Live Integration with Grok API | Technical Trend Quality Score + Regime-Conditional Multiplier
 
 > **Document Version:** March 2026 — Live Deployment via xAI Grok 4 Fast Reasoning API  
